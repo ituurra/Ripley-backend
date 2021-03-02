@@ -1,0 +1,16 @@
+{
+  "usuario": [
+    {
+      "Nombre": "Daniel Iturra",
+      "Rut": "1111-1",
+      "NumCuenta": "1111",
+      "Saldo": 669313
+    },
+    {
+      "Nombre": "Ana Maria",
+      "Rut": "2222-2",
+      "NumCuenta": "2222",
+      "Saldo": 230687
+    }
+  ]
+}
