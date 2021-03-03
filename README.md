@@ -12,9 +12,9 @@ npm start
 ```
 
 
-## Usage
+## Base de datos
 
-
+Al momento de correr el proyecto por primera vez, se generara una base de datos llamada db.json, con la siguente estructura
 
 ```JSON
 {
