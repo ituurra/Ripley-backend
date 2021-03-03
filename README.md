@@ -35,5 +35,12 @@ Al momento de correr el proyecto por primera vez, se generara una base de datos 
   }
 ```
 
- 
+ ## Como probar
+
+Puede probar este proyecto a travez de la coleccion en `postman` que esta dentro del proyecto o descargar el frontend y correr el proyecto 
+
+```bash
+git clone https://github.com/ituurra/Ripley-frontend.git
+```
+
  
