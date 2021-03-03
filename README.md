@@ -1,6 +1,10 @@
 ## Instalacion
 
-Con node en su maquina, proceda a instalar las dependencias con el siguente comando [pip](https://pip.pypa.io/en/stable/) npm install.
+Con node en su maquina, proceda a instalar las dependencias con el siguente comando
+
+```bash
+npm install
+```
 
 
 ## Base de datos 
