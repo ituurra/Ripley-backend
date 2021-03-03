@@ -1,11 +1,9 @@
-# Ripley-backend
+## Instalacion
 
-Luego de clonar el proyecto y tener node instalado, correr el comando "npm install" para descargar las dependencias
-
-Termina de descargar las dependencias y corremos el comando "npm start" y quedara expuesto en su local puerto 3000
+Con node en su maquina, proceda a instalar las dependencias con el siguente comando [pip](https://pip.pypa.io/en/stable/) npm install.
 
 
-# Base de datos 
+## Base de datos 
 
 al momento de ejecutar el proyecto , se creara una base de datos por defectos con la sigente estructura JSON
  {
