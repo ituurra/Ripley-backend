@@ -5,13 +5,20 @@ Con node en su maquina, proceda a instalar las dependencias con el siguente coma
 ```bash
 npm install
 ```
+Luego ya instalada las dependencias ejecutamos el comando para iniciar la app , quedara expuesto en el puerto 3000
+
+```bash
+npm start
+```
 
 
-## Base de datos 
+## Usage
 
-al momento de ejecutar el proyecto , se creara una base de datos por defectos con la sigente estructura JSON
- {
- usuario: [
+
+
+```JSON
+{
+    usuario: [
       {
         Nombre: "Daniel Iturra",
         Rut: "1111-1",
@@ -24,7 +31,9 @@ al momento de ejecutar el proyecto , se creara una base de datos por defectos co
         NumCuenta: "2222",
         Saldo: 400000,
       },
-    ]
- }
+    ],
+  }
+```
+
  
  
