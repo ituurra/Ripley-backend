@@ -1,0 +1,92 @@
+{
+	"info": {
+		"_postman_id": "d61a5825-3156-42e4-abb7-61858b47f177",
+		"name": "RipleyBackend",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000/transferencia",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cuentaOrigen\": \"1111\",\r\n    \"cuentaDestino\": \"2222\",\r\n    \"monto\": 200000\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/transferencia",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"transferencia"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/consultarSaldo",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"rut\": \"1111-1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/consultarSaldo",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"consultarSaldo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/indicadores",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"valores\" : [\"dolar\",\"uf\",\"utm\"]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/indicadores",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"indicadores"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
