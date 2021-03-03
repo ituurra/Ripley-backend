@@ -5,7 +5,7 @@ Con node en su maquina, proceda a instalar las dependencias con el siguente coma
 ```bash
 npm install
 ```
-Luego ya instalada las dependencias ejecutamos el comando para iniciar la app , quedara expuesto en `http://localhost:4200/`
+Luego ya instalada las dependencias ejecutamos el comando para iniciar la app , quedara expuesto en `http://localhost:3000/`
 
 ```bash
 npm start
